@@ -1,0 +1,19 @@
+.pinkBars {
+    background-color: #ED13D7;
+    font-family: Verdana, "DejaVu Sans", sans-serif; 
+}
+
+#greenBar {
+    background-color: #00B65B; 
+    font-size: 24px; 
+    font-weight: 900; 
+}
+
+#blueText {
+    color: #2612F5; 
+    font-size: 36px; 
+}
+
+.pinkBars.bigFont { 
+    font-size: 24px;
+}
