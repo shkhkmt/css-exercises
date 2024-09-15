@@ -1,0 +1,13 @@
+.Click {
+    font-size: 28px; 
+    font-family: Helvetica, "Times New Roman", sans-serif; 
+}
+
+.Click.Black {
+    background-color: #000000; 
+    color: #FFFFFF; 
+}
+
+.Click.Yellow {
+    background-color: #F5E40D; 
+}
