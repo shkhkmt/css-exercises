@@ -1,4 +1,6 @@
 .container .text {
     background-color: #FFDE05; 
-    color: #FA540F
+    color: #FA540F; 
+    text-align: center; 
+    font-size: 20px; 
 }
