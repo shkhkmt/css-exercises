@@ -8,10 +8,13 @@ body {
   font-family: Besley, serif;
 }
 
-.header {
+.header { /*setting display to flex and justifying elements then adding alignment.*/
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center; 
 }
 
 .profile-image {
@@ -27,6 +30,17 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+  align-items: center; 
+}
+
+.left-items { /*making objects inside the div flex items and adding a gap between them */ 
+    display: flex; 
+    gap: 1em; 
+}
+
+.right-items {
+    display: flex;
+    gap: 1em; 
 }
 
 button {
@@ -43,6 +57,10 @@ a {
   color: rebeccapurple;
 }
 
-ul {
+ul { /* making list a flex item, removing padding and adding a gap between items */ 
   list-style-type: none;
+  padding: 0; 
+  display: flex; 
+  gap:1em; 
 }
+
