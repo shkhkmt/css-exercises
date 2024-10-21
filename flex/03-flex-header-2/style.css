@@ -6,6 +6,7 @@ body {
   margin: 0;
   background: #eee;
   font-family: Besley, serif;
+  box-sizing: border-box; 
 }
 
 .header { /*setting display to flex and justifying elements then adding alignment.*/
@@ -30,17 +31,16 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
-  align-items: center; 
 }
 
-.left-items { /*making objects inside the div flex items and adding a gap between them */ 
-    display: flex; 
-    gap: 1em; 
+{ /*making objects inside the div flex items and adding a gap between them */ 
 }
 
+.left-items, 
 .right-items {
     display: flex;
     gap: 1em; 
+    align-items: center; 
 }
 
 button {
@@ -49,6 +49,7 @@ button {
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  height: 2.5em; 
 }
 
 a {
