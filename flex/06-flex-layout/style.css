@@ -5,6 +5,8 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex; 
+  flex-direction: column; 
 }
 
 img {
@@ -25,3 +27,67 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+.content {
+  display: flex; 
+  align-items: center;
+  flex-direction: column;
+  flex: 1; 
+  justify-content: center; 
+}
+
+.header,
+.footer {
+  display: flex; 
+  flex-direction: row;
+  padding: auto; 
+}
+
+.left-links, 
+.right-links {
+  display: flex; 
+  flex-direction: row;
+  gap: 1em; 
+  width: 100%;
+  justify-content: space-between; 
+}
+
+.left-links {
+    justify-content: flex-start;
+}
+
+.right-links {
+    justify-content: flex-end; 
+    padding-right: 40px; 
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  display: flex; 
+}
+
+.footer {
+    background-color: #EAEAEA; 
+}
+
+.buttons {
+    display: flex; 
+    radius: 50%; 
+    gap: 1em; 
+}
+
+button {
+    background-color: #EAEAEA; 
+    padding: 0.5em  1em; 
+    color: #728094; 
+}
+
+ul a { text-decoration: none; color: #728094}
+ul a:visited { text-decoration: none; color:#728094;} }
+ul a:hover { text-decoration: none; color:#728094}; }
+ul a:focus { text-decoration: none; color:#728094; }
+ul a:hover, .navBtn:active { text-decoration: none; color:#000; }
